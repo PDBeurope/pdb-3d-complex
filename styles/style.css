@@ -1,0 +1,112 @@
+.pcl-3dcomplex-wrapper{
+  width:240px;
+  height:auto;
+  font-family: Verdana,sans-serif;
+  position: relative;
+  font-size:12px;
+  border: 1px solid #c3c3c3;
+  padding:5px 10px;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.pcl-3dcomplex-heading{
+  font-size: 12px;
+  width:100%;
+  text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow:hidden;
+  text-align:center;
+  font-weight:bold;
+  margin-bottom:5px;
+  font-size:16px;
+}
+.pcl-3dcomplex-subheading{
+  font-weight:bold;
+  font-size:13px;
+  border-bottom: 1px solid #c3c3c3;
+}
+.pcl-3dcomplex-result{
+  width:100%;
+  height:auto;
+  overflow:auto;
+}
+
+.pcl-3dcomplex-row{
+  height:auto;
+  line-height:23px;
+}
+
+.pcl-3dcomplex-label{
+  font-size: 12px;
+  width:auto;
+  text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow:hidden;
+  font-weight:bold;
+}
+.pcl-3dcomplex-error{
+  float:left;
+  width:53%;
+  height:11px;
+  margin-left:2%;
+  margin-top:1px;
+  border: 1px solid #CCC;
+  background: #999;
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.pcl-3dcomplex-loader {
+    position: absolute;
+    background: #fff;
+    opacity: 0.9;
+    text-align: center;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    z-index: 999;
+    width:100%;
+    height:100%;
+}
+
+.pcl-3dcomplex-circle {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    line-height: 12px;
+
+    -moz-border-radius: 20px; /* or 50% */
+    border-radius: 20px; /* or 50% */
+    margin-top:2px;
+    right:2px;
+}
+
+.pcl-3dcomplex-red {
+  background-color: #E60000;
+}
+.pcl-3dcomplex-yellow {
+  background-color: #E0AF46;
+}
+.pcl-3dcomplex-green {
+  background-color: #40C79E;
+}
+
+.pcl-3dcomplex-tooltip{
+  clear: both;
+}
+
+.pcl-3dcomplex-logo{
+  float:right;
+  margin-top:-5px;
+  display:inline-block;
+}
+
+.pcl-3dcomplex-link{
+  float:right;
+  margin-right:1px;
+}

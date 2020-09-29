@@ -1,0 +1,53 @@
+{
+  "name": "pdb-3d-complex",
+  "version": "2.0.0",
+  "description": "The 3D complex is a server that analyses the complexes in crystal structures. This component gives a compact summary of the results for a particular PDB code and assembly.",
+  "keywords": [
+    "BioJS",
+    "PDB component",
+    "3DComplex",
+    "PDBe",
+    "pdb-3d-complex",
+    "QSbio"
+  ],
+  "homepage": "https://github.com/PDBeurope/pdb-3d-complex#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PDBeurope/pdb-3d-complex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PDBeurope/pdb-3d-complex/issues"
+  },
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1",
+    "build": "npm run build-tsc && npm run build-webpack && npm run bundle-webcomponent",
+    "build-tsc": "tsc",
+    "build-webpack": "webpack --mode development",
+    "serve": "http-server -p 1338",
+    "bundle-webcomponent": "gulp"
+  },
+  "author": {
+    "name": "Mandar Deshpande",
+    "email": "mandar@ebi.ac.uk"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/runtime": "^7.7.2",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-header": "^2.0.9",
+    "http-server": "^0.12.3",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "lit-element": "^2.2.1"
+  }
+}

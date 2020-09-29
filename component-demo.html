@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <title>PDB 3D Complex Web-component Demo</title>
+      
+        <!-- Required for IE11 -->
+        <script src="https://cdn.jsdelivr.net/npm/babel-polyfill/dist/polyfill.min.js"></script>
+        <!-- Web component polyfill (only loads what it needs) -->
+        <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs/webcomponents-lite.js" charset="utf-8"></script>
+        <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+        <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js" charset="utf-8"></script>
+
+        <link rel="stylesheet" type="text/css" href="build/pdb-3d-complex-component-2.0.0.css">
+        <script type="text/javascript" src="build/pdb-3d-complex-component-2.0.0.js"></script>
+        
+    </head>
+    <body>
+        <h4>PDB 3D Complex Web-component Demo</h4>
+        <pdb-3d-complex pdb-id="1lec" assembly-id="1"></pdb-3d-complex>
+        
+    </body>
+</html>

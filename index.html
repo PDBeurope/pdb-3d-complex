@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      
+    <!-- pdb-3d-complex CSS & JS -->
+    <link rel="stylesheet" type="text/css" href="build/pdb-3d-complex-component-2.0.0.css">
+    <script type="text/javascript" src="build/pdb-3d-complex-plugin.js"></script>
+
+  </head>
+
+  <body>
+    <h4>PDB 3D Complex Plugin Demo</h4>
+    
+    <!-- pdb-3d-complex container -->
+    <div id="pdb-3d-complex"></div>
+    
+    <script>
+      //Create plugin instance
+      var pluginInstance = new Pdb3dComplexPlugin();
+  
+      //Get element from HTML/Template to place the view
+      var viewContainer = document.getElementById('pdb-3d-complex');
+  
+      //Call render method
+      pluginInstance.render(viewContainer, '1lec', '1', true);
+      
+    </script>
+  </body>
+
+</html>
